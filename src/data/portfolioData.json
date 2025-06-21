@@ -40,43 +40,58 @@
     {
       "title": "Software Development Engineer",
       "company": "Arial Labs",
-      "location": "California, Remote",
-      "dates": "June 2024 – April 2025",
-      "details": [
-        "Started with developing static web pages using React.js and Tailwind CSS, and progressed to independently building the company’s core Chrome extension using Manifest V3 with cross-browser support.",
-        "Integrated Claude API with backend services using AWS Lambda, DynamoDB, and S3 to enable serverless, scalable AI-powered functionality, maintaining the codebase via GitHub.",
-        "Built and deployed the MVP along with an automated dashboard to track user activity and internal operations."
+      "type": "Remote",
+      "duration": "June 2024 – April 2025",
+      "location": "California",
+      "description": "Contributed to core product development, starting with React.js static pages and advancing to building a Chrome extension with Manifest V3. Integrated Claude API with AWS Lambda, DynamoDB, and S3 for scalable AI features. Deployed MVP with a dashboard to track user activity and internal operations.",
+      "skills": [
+        "React.js",
+        "Tailwind CSS",
+        "Chrome Extension",
+        "Claude API",
+        "AWS Lambda",
+        "DynamoDB",
+        "S3",
+        "GitHub",
+        "Serverless"
       ]
     },
     {
       "title": "Internship Trainee",
       "company": "Samsung Innovation Campus",
-      "location": "Greater Noida, Offline",
-      "dates": "June 2024 – Sept 2024",
-      "details": [
-        "Developed and fine-tuned machine learning and AI models using Python, TensorFlow, and PyTorch.",
-        "Applied AI techniques for data classification, prediction, and pattern recognition on large datasets.",
-        "Performed ETL processes, exploratory data analysis (EDA), and created visual dashboards using Power BI and Excel."
-      ]
-    },
-    {
-      "title": "Web Developer Intern",
-      "company": "SOMHH",
-      "location": "Delhi, Remote",
-      "dates": "Nov 2023 – Jan 2024",
-      "details": [
-        "Developed a static fundraising website using Svelte and Bootstrap, significantly enhancing digital presence and outreach.",
-        "Integrated Razorpay and Stripe payment gateways, streamlining the donation process and improving user experience."
+      "type": "Full-time",
+      "duration": "Jun 2024 – Sep 2024 · 4 mos",
+      "location": "Greater Noida, On-site",
+      "description": "Completed intensive AI training focused on real-world applications of Artificial Intelligence and Data Science. Worked on practical AI projects involving machine learning, classification, and predictive modeling. Conducted ETL, EDA, and built dashboards using Power BI and Excel.",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Data Analysis",
+        "Power BI",
+        "Excel",
+        "EDA",
+        "ETL",
+        "AI"
       ]
     },
     {
       "title": "Web Developer Intern",
       "company": "Gautam Buddha University",
-      "location": "Greater Noida, in campus",
-      "dates": "March 2023 – June 2023",
-      "details": [
-        "Designed and developed a frontend of web app with MERN stack to manage and track job applicants for university positions.",
-        "Collaborated with the Registrar’s Office to gather requirements and deliver features, optimizing the hiring process."
+      "type": "In-campus",
+      "duration": "March 2023 – June 2023",
+      "location": "Greater Noida",
+      "description": "Designed and developed a job applicant tracking frontend using the MERN stack. Worked with the Registrar’s Office to gather requirements and deliver feature-driven updates that streamlined university hiring.",
+      "skills": [
+        "MERN Stack",
+        "React.js",
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "Frontend",
+        "UI/UX",
+        "Requirement Gathering"
       ]
     }
   ],

@@ -1,18 +1,23 @@
 import React from "react";
 import Landing from "../components/Landing.jsx";
 import Project from "../components/Project.jsx";
-import Experiences from "../components/Experiences.jsx";
+import Experience from "../components/Experience.jsx";
 
 function Home({ data }) {
   return (
     <>
       <Landing basics={data.basics} />
 
-      <div className="my-10">
+      <div className="mt-6">
         <h2 className="text-4xl text-secondary  font-semibold py-8">
           Experiences
         </h2>
-        <Experiences />
+
+        <div className="">
+          {data.experience.map((experience, index) => (
+            <Experience key={index} experience={experience} />
+          ))}
+        </div>
       </div>
 
       <div className="my-10">
