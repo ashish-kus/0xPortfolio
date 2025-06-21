@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Ashish Kushwaha",
+    "title": "Software Developer Engineer",
+    "email": "ashish.kus2408@gmail.com",
+    "phone": "+91 7525874187",
+    "github": "https://github.com/ashish-kus",
+    "linkedin": "https://www.linkedin.com/in/ashish-kushwaha2408"
+  },
+
+  "education": [
+    {
+      "institution": "Gautam Buddha University",
+      "location": "Greater Noida, Uttar Pradesh",
+      "degree": "B. Tech + M. Tech CSE in Software Engineering",
+      "cgpa": "8.5",
+      "dates": "August 2020 – Present"
+    },
+    {
+      "institution": "Narayana IIT Academy, Raviryala",
+      "location": "Hyderabad, Telangana",
+      "degree": "Intermediate – Physics, Chemistry, Mathematics",
+      "percentage": "88%",
+      "dates": "March 2017 – March 2019"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Software Development Engineer",
+      "company": "Arial Labs",
+      "location": "California, Remote",
+      "dates": "June 2024 – April 2025",
+      "details": [
+        "Started with developing static web pages using React.js and Tailwind CSS, and progressed to independently building the company’s core Chrome extension using Manifest V3 with cross-browser support.",
+        "Integrated Claude API with backend services using AWS Lambda, DynamoDB, and S3 to enable serverless, scalable AI-powered functionality, maintaining the codebase via GitHub.",
+        "Built and deployed the MVP along with an automated dashboard to track user activity and internal operations."
+      ]
+    },
+    {
+      "title": "Internship Trainee",
+      "company": "Samsung Innovation Campus",
+      "location": "Greater Noida, Offline",
+      "dates": "June 2024 – Sept 2024",
+      "details": [
+        "Developed and fine-tuned machine learning and AI models using Python, TensorFlow, and PyTorch.",
+        "Applied AI techniques for data classification, prediction, and pattern recognition on large datasets.",
+        "Performed ETL processes, exploratory data analysis (EDA), and created visual dashboards using Power BI and Excel."
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "SOMHH",
+      "location": "Delhi, Remote",
+      "dates": "Nov 2023 – Jan 2024",
+      "details": [
+        "Developed a static fundraising website using Svelte and Bootstrap, significantly enhancing digital presence and outreach.",
+        "Integrated Razorpay and Stripe payment gateways, streamlining the donation process and improving user experience."
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "Gautam Buddha University",
+      "location": "Greater Noida, in campus",
+      "dates": "March 2023 – June 2023",
+      "details": [
+        "Designed and developed a frontend of web app with MERN stack to manage and track job applicants for university positions.",
+        "Collaborated with the Registrar’s Office to gather requirements and deliver features, optimizing the hiring process."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "HireLift",
+      "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
+      "tech": "Chrome Extension APIs, WebSockets, AWS Lambda, S3, DynamoDB, and REST APIs",
+      "details": [
+        "AI-powered Chrome extension used by 10+ hiring managers across 60+ interviews to streamline technical evaluations.",
+        "Integrates with Google Meet/MS Teams to analyze live captions and JD–CV uploads, generating real-time questions.",
+        "Generates post-interview summaries with tech skills, JD alignment, and key candidate insights via the dashboard."
+      ]
+    },
+    {
+      "name": "Mtag Gen",
+      "url": "https://github.com/ashish-kus/SEO_metaTag_generater",
+      "tech": "Meta Tag Generator | HTML, CSS, JavaScript, Netlify",
+      "details": [
+        "Developed an intuitive web app to preview and generate SEO meta tags (HTML, Open Graph, Twitter Cards) for websites.",
+        "Allows users to fetch metadata from a URL or manually input values to create optimized tags in seconds.",
+        "Deployed on Netlify and featured a clean UI/UX focused on simplicity, accessibility, and quick SEO validation."
+      ]
+    },
+    {
+      "name": "Waybar-Hotspot",
+      "url": "https://github.com/ashish-kus/waybar-hotspot",
+      "tech": "Bash, Zenity, create_ap, QR",
+      "details": [
+        "Waybar module for monitoring and managing Wi-Fi hotspot status with graphical prompts using Zenity.",
+        "Supports custom configurations for create_ap and QR code display in tooltips for easy access."
+      ]
+    }
+  ],
+
+  "skills": {
+    "languages": [
+      "C++",
+      "C",
+      "Bash",
+      "JavaScript",
+      "Python",
+      "Go",
+      "Lua",
+      "LaTeX",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": ["ReactJS", "FXTUI", "TailwindCSS", "Chrome Extensions"],
+    "databases": ["MySQL", "MongoDB"],
+    "tools": [
+      "SEO",
+      "AWS",
+      "QEMU",
+      "Linux",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Docker",
+      "nginx",
+      "Arch",
+      "Ubuntu",
+      "nVim",
+      "cPanel"
+    ],
+    "softSkills": [
+      "Effective Communication",
+      "Problem-Solving",
+      "Leadership",
+      "Adaptability",
+      "Team Collaboration"
+    ]
+  },
+
+  "certificationsAchievements": [
+    "Published research paper titled “Adaptive Task-Based CPU Scaling for Efficient Power Allocation in Edge Computing.”",
+    "Introduction to Linux (LFS101) covering core Linux system and various command-line fundamentals by The Linux Foundation.",
+    "Earned the Hacktoberfest 2024 Badges, published multiple packages on AUR.",
+    "Winner of multiple hackathons, like Bhabha Bandhu by Microsoft, Glitch pan-India Hackathon on open source development.",
+    "Founder of Hackfed tech community and secretary of Techno Cultural Club and Ecell Gautam Buddha University."
+  ]
+}

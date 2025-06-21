@@ -1,10 +1,12 @@
 import "./App.css";
+import Home from "./Pages/Home.jsx";
+import data from "./data/portfolioData.json";
 
 function App() {
   return (
-    <>
-      <p className="text-6xl text-red-600">Hello to my tech folio</p>
-    </>
+    <div className="mx-auto w-full max-w-full px-4 sm:max-w-[75%] lg:max-w-[50%]">
+      <Home data={data} />
+    </div>
   );
 }
 
