@@ -2,6 +2,17 @@
   "basics": {
     "name": "Ashish Kushwaha",
     "title": "Software Developer Engineer",
+    "summery": "A passionate and self-driven Software Developer and Computer Science dual-degree (B.Tech + M.Tech) student with an 8.5 CGPA, I bring a robust background in full-stack web development, specializing in efficient, scalable, and user-focused applications using modern JavaScript frameworks (React, Svelte), Tailwind CSS, and Chrome Extension APIs. I've led end-to-end product development, notably HireLift—an AI-driven Chrome extension.",
+    "tags": [
+      "open source",
+      "aws",
+      "Arch Linux",
+      "Web Development",
+      "C++",
+      "Bash Scripting",
+      "JavaScript",
+      "MERN"
+    ],
     "email": "ashish.kus2408@gmail.com",
     "phone": "+91 7525874187",
     "github": "https://github.com/ashish-kus",
@@ -73,8 +84,17 @@
   "projects": [
     {
       "name": "HireLift",
+      "summary": "Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
       "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
-      "tech": "Chrome Extension APIs, WebSockets, AWS Lambda, S3, DynamoDB, and REST APIs",
+      "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
+      "techstack": [
+        "Chrome Extension APIs",
+        "WebSockets",
+        "AWS Lambda",
+        "S3",
+        "DynamoDB",
+        "REST APIs"
+      ],
       "details": [
         "AI-powered Chrome extension used by 10+ hiring managers across 60+ interviews to streamline technical evaluations.",
         "Integrates with Google Meet/MS Teams to analyze live captions and JD–CV uploads, generating real-time questions.",
@@ -83,8 +103,10 @@
     },
     {
       "name": "Mtag Gen",
+      "summary": "Meta tag generator web app with live preview and SEO-focused tag creation. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
       "url": "https://github.com/ashish-kus/SEO_metaTag_generater",
-      "tech": "Meta Tag Generator | HTML, CSS, JavaScript, Netlify",
+      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
+      "techstack": ["HTML", "CSS", "JavaScript", "Netlify"],
       "details": [
         "Developed an intuitive web app to preview and generate SEO meta tags (HTML, Open Graph, Twitter Cards) for websites.",
         "Allows users to fetch metadata from a URL or manually input values to create optimized tags in seconds.",
@@ -93,8 +115,10 @@
     },
     {
       "name": "Waybar-Hotspot",
+      "summary": "Waybar module to manage Wi-Fi hotspots with GUI prompts and QR code sharing. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
       "url": "https://github.com/ashish-kus/waybar-hotspot",
-      "tech": "Bash, Zenity, create_ap, QR",
+      "imageUrl": "https://github.com/ashish-kus/waybar-hotspot/raw/main/Preview/waybar-Hotspot.png",
+      "techstack": ["Bash", "Zenity", "create_ap", "QR"],
       "details": [
         "Waybar module for monitoring and managing Wi-Fi hotspot status with graphical prompts using Zenity.",
         "Supports custom configurations for create_ap and QR code display in tooltips for easy access."
