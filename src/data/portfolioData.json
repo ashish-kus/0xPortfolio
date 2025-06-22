@@ -180,6 +180,56 @@
     ]
   },
 
+  "certificates": [
+    {
+      "title": "Introduction to Oracle Cloud Essentials",
+      "summery": "Gained foundational understanding of cloud computing through Oracle Cloud Infrastructure. Learned to provision and manage compute instances, object storage, and networking components. Demonstrated knowledge of IAM, compartments, and cost management within OCI.",
+      "issuer": "Oracle",
+      "issueDate": "Jun 2025",
+      "credentialId": "115954",
+      "credentialUrl": "https://example.com/oracle-cloud-essentials",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/512px-Oracle_logo.svg.png",
+      "skills": [
+        "Cloud Computing",
+        "Cloud Storage",
+        "Oracle Applications",
+        "Oracle Database",
+        "Cloud Security",
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PAAS)",
+        "Oracle Enterprise Resource Planning (ERP) Cloud",
+        "Oracle Cloud"
+      ]
+    },
+    {
+      "title": "Introduction to Linux (LFS101)",
+      "summery": "Completed the Linux 101 course by The Linux Foundation, covering fundamental Linux concepts including file system hierarchy, process management, permissions, shell scripting, and basic networking. Gained hands-on experience with command-line tools and system administration tasks in a Linux environment.",
+      "issuer": "The Linux Foundation",
+      "issueDate": "May 2025",
+      "credentialId": "LF-vcoky5987",
+      "credentialUrl": "https://example.com/linux-foundation-lfs101",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Linux_Foundation_logo.svg/512px-Linux_Foundation_logo.svg.png",
+      "skills": [
+        "Bash",
+        "Networking",
+        "System Administration",
+        "Linux System Administration",
+        "Network Security",
+        "Network File System (NFS)",
+        "IT Operations"
+      ]
+    },
+    {
+      "title": "CVR 2025 Research Paper Presentation Certificate",
+      "issuer": "Training and Placement Cell, NIT Goa",
+      "summery": "Authored and published a research paper focused on optimizing CPU instruction issue (CPII) frequency scaling to enhance energy efficiency and performance in modern processors. The paper presents analytical models and experimental results demonstrating dynamic scaling strategies for reducing power consumption while maintaining processing throughput.",
+      "issueDate": "Apr 2025",
+      "credentialId": "SCRS|CVR2025|PC|1134",
+      "credentialUrl": "https://example.com/cvr-research-certificate",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/NIT_Goa_Logo.svg/512px-NIT_Goa_Logo.svg.png",
+      "skills": ["Research and Development (R&D)"]
+    }
+  ],
   "certificationsAchievements": [
     "Published research paper titled “Adaptive Task-Based CPU Scaling for Efficient Power Allocation in Edge Computing.”",
     "Introduction to Linux (LFS101) covering core Linux system and various command-line fundamentals by The Linux Foundation.",
