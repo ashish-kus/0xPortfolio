@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+      },
       fontSize: {
         "heading-1": ["clamp(2rem, 5vw, 3.5rem)", { lineHeight: "1.2" }],
         "heading-2": ["clamp(1.75rem, 4vw, 2.75rem)", { lineHeight: "1.3" }],
