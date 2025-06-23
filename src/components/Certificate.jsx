@@ -11,20 +11,21 @@ const Certificate = ({ data }) => {
   } = data;
 
   return (
-    <div className="text-secondary  py-8 w-full">
+    <div className="text-secondary  py-8 w-full ">
       {/* Header */}
       <div className="flex items-start gap-4">
         <div>
           <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
             {title}
           </h3>
-          <p className="text-base sm:text-lg md:text-xl font-bold">{issuer}</p>
-          <p className="text-sm sm:text-md md:text-lg italic">
-            Issued {issueDate}
-          </p>
-          <p className="text-sm sm:text-md md:text-lg italic">
-            Credential ID {credentialId}
-          </p>
+          <div className="flex  justify-between">
+            <p className="text-base sm:text-lg md:text-xl font-bold">
+              {issuer}
+            </p>
+            <p className="text-sm sm:text-md md:text-lg italic">
+              Issued {issueDate} · Credential ID {credentialId}
+            </p>
+          </div>
           <p className="text-sm sm:text-base md:text-lg font-semibold pt-4 text-justify">
             {summery}
           </p>
@@ -37,7 +38,7 @@ const Certificate = ({ data }) => {
           href={credentialUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 px-4 py-1 text-xs sm:text-sm font-medium text-white border border-white rounded-md hover:bg-white hover:text-black transition"
+          className="inline-block mt-4 px-4 py-1 text-xs sm:text-sm font-medium text-secondary border border-secondry rounded-md hover:bg-white hover:text-black transition"
         >
           Show credential ↗
         </a>
