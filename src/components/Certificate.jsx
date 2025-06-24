@@ -26,7 +26,8 @@ const Certificate = ({ data }) => {
               Issued {issueDate} · Credential ID {credentialId}
             </p>
           </div>
-          <p className="text-sm sm:text-base md:text-lg font-semibold pt-4 text-justify">
+
+          <p className="mt-3 text-sm sm:text-base md:text-lg leading-relaxed italic text-justify">
             {summery}
           </p>
         </div>
