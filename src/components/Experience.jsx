@@ -1,26 +1,26 @@
 const Experience = ({ experience }) => {
   return (
-    <div className="text-secondary py-8">
+    <div className="text-secondary pb-8">
       {/* Top Section */}
       <div className="flex flex-col gap-4">
         <div>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold">
             {experience.title}
           </h3>
-          <p className="text-base sm:text-lg md:text-xl italic">
-            {experience.company} · {experience.type}
-          </p>
-          <p className="text-sm sm:text-base md:text-lg italic">
-            {experience.duration}
-          </p>
-          <p className="text-sm sm:text-base md:text-lg">
-            {experience.location}
-          </p>
+
+          <div className="flex  justify-between">
+            <p className="text-base sm:text-lg md:text-xl italic">
+              {experience.company} · {experience.type} · {experience.location}
+            </p>
+            <p className="text-sm sm:text-base md:text-lg italic">
+              {experience.duration}
+            </p>
+          </div>
         </div>
       </div>
 
       {/* Description */}
-      <p className="mt-3 text-sm sm:text-base md:text-lg leading-relaxed italic">
+      <p className="mt-3 text-sm sm:text-base md:text-lg leading-relaxed italic text-justify">
         {experience.description}
       </p>
 

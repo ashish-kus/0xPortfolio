@@ -12,7 +12,7 @@ function Home({ data }) {
 
       <div className="mt-6">
         <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Experiences
+          Experiences 💼
         </h2>
 
         <div className="">
@@ -24,7 +24,7 @@ function Home({ data }) {
 
       <div className="my-10">
         <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Projects
+          Projects 📁
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -35,13 +35,15 @@ function Home({ data }) {
       </div>
 
       <div className="mt-6">
-        <h2 className="text-4xl text-secondary  font-semibold py-8">Skills</h2>
+        <h2 className="text-4xl text-secondary  font-semibold py-8">
+          Skills 💪
+        </h2>
         <Skills skills={data.skills} />
       </div>
 
       <div className="my-10">
         <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Certification
+          Certification 🏅
         </h2>
 
         <div className="">
