@@ -10,6 +10,9 @@ export default {
     extend: {
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
+        sans: ["JetBrains Mono", "Courier Prime", "ui-sans-serif", "system-ui"],
+        mono: ["JetBrains Mono", "Courier Prime", "monospace"],
+        serif: ["Courier Prime", "serif"],
       },
       fontSize: {
         "heading-1": ["clamp(2rem, 5vw, 3.5rem)", { lineHeight: "1.2" }],
@@ -18,7 +21,7 @@ export default {
         "heading-4": ["clamp(1.25rem, 2vw, 1.75rem)", { lineHeight: "1.4" }],
       },
       colors: {
-        primary: "#000000", // true black
+        primary: "#1d1e20", // true black
         secondary: "#F8F9FA", // soft white / off-white
         accent: "#FF5722", // bright orange/red to mark links and CTAs
       },

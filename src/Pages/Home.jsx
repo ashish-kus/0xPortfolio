@@ -5,53 +5,26 @@ import Experience from "../components/Experience.jsx";
 import Skills from "../components/Skills.jsx";
 import Certificate from "../components/Certificate.jsx";
 import Footer from "../components/Footer.jsx";
+
 function Home({ data }) {
   return (
     <>
       <Landing basics={data.basics} />
+      <Experience data={data.experience} />
+      <Project data={data.projects} />
+      <Skills skills={data.skills} />
 
-      <div className="mt-6">
-        <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Experiences 💼
+      {/* Certifications Section */}
+      <section className="mt-12 md:mt-20 lg:mt-28">
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-secondary font-semibold pb-5">
+          Certifications 🏅
         </h2>
-
-        <div className="">
-          {data.experience.map((experience, index) => (
-            <Experience key={index} experience={experience} />
-          ))}
-        </div>
-      </div>
-
-      <div className="my-10">
-        <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Projects 📁
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {data.projects.map((project, index) => (
-            <Project key={index} data={project} />
-          ))}
-        </div>
-      </div>
-
-      <div className="mt-6">
-        <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Skills 💪
-        </h2>
-        <Skills skills={data.skills} />
-      </div>
-
-      <div className="my-10">
-        <h2 className="text-4xl text-secondary  font-semibold py-8">
-          Certification 🏅
-        </h2>
-
-        <div className="">
+        <div className="space-y-6">
           {data.certificates.map((certificates, index) => (
             <Certificate key={index} data={certificates} />
           ))}
         </div>
-      </div>
+      </section>
 
       <Footer />
     </>

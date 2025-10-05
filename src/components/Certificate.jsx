@@ -11,7 +11,7 @@ const Certificate = ({ data }) => {
   } = data;
 
   return (
-    <div className="text-secondary  py-8 w-full ">
+    <div className="text-secondary  pt-4 w-full ">
       {/* Header */}
       <div className="flex items-start gap-4">
         <div>
@@ -27,7 +27,7 @@ const Certificate = ({ data }) => {
             </p>
           </div>
 
-          <p className="mt-3 text-sm sm:text-base md:text-lg leading-relaxed italic text-justify">
+          <p className="mt-3 text-xs sm:text-sm md:text-md leading-relaxed italic text-justify">
             {summery}
           </p>
         </div>

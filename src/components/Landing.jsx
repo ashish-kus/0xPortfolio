@@ -10,7 +10,7 @@ const Landing = ({ basics }) => {
       <div className="pt-10">
         <GitHubCalendar username="ashish-kus" />
       </div>
-      <div className="  text-secondary">
+      <div className="text-secondary mt-10 md:mt-16 lg:mt-24">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
           {name}
         </h2>
@@ -26,7 +26,7 @@ const Landing = ({ basics }) => {
             </span>
           ))}
         </div>
-        <p className="pt-12 text-sm sm:text-md md:text-lg lg:text-xl text-justify">
+        <p className="pt-4 text-sm sm:text-md md:text-lg lg:text-lg text-justify">
           {summery}
         </p>
       </div>
