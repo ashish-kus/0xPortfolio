@@ -1,21 +1,22 @@
 #!/bin/bash
-
-# Exit immediately if a command exits with a non-zero status
 set -e
 
 # Clean old build folders
 echo "🧹 Cleaning old build folders..."
-rm -rf build/ docs/
+rm -rf dist/ docs/
 
-# Build the React app
+# Build the React app with Vite
 echo "🏗️ Building React app..."
 npm run build
 
-# Add custom domain (CNAME) file
-echo "ashishkus.com" >build/CNAME
+# Add CNAME
+echo "🌐 Adding CNAME..."
+mkdir -p dist
+echo "0xblogs.ashishkus.com" >dist/CNAME
 
-# Copy build output into docs/ (for GitHub Pages)
+# Copy dist/ to docs/ for GitHub Pages
+echo "📂 Moving build to docs..."
 mkdir -p docs
-cp -r build/. docs/
+cp -r dist/. docs/
 
-echo "✅ Build complete! The site is ready in docs/ (for GitHub Pages)."
+echo "✅ Build complete! Ready to push 🚀"
