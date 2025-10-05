@@ -95,11 +95,11 @@
       ]
     }
   ],
-
   "projects": [
     {
       "name": "HireLift",
       "summary": "Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["webDev", "DevOps"],
       "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
       "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
       "techstack": [
@@ -107,6 +107,10 @@
         "WebSockets",
         "AWS Lambda",
         "S3",
+        "IAM",
+        "EC2",
+        "VPC",
+        "CloudWatch",
         "DynamoDB",
         "REST APIs"
       ],
@@ -117,8 +121,53 @@
       ]
     },
     {
+      "name": "Huegen",
+      "summary": "High-performance C++17 CLI tool using OpenCV for K-means color extraction, outperforming similar engines like Pywal. Features a template-driven system to generate multi-format theme files and apply colors system-wide in real-time across terminal emulators, TTYs, and Linux applications with minimal configuration.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/Huegen",
+      "imageUrl": "https://github.com/ashish-kus/Huegen/blob/main/Previews/1.png?raw=true",
+      "techstack": [
+        "C++ 17",
+        "OpenCV",
+        "Bash",
+        "nlohmann/json",
+        "CMake",
+        "linux sockets"
+      ],
+      "details": [
+        "Huegen is a C++ tool that extracts distinctive colors from images and generates theme files for various applications. It uses advanced color analysis techniques including K-means clustering and perceptual color distance calculations to create visually appealing color palettes.",
+        "Intelligent Color Extraction: Uses K-means clustering to identify dominant colors",
+        "Perceptual Color Selection: Selects the most visually distinct colors using LAB color space",
+        "Multiple Color Formats: Supports HEX, RGB, RGBA, HSL, HSV, and LAB formats",
+        "Template Engine: Processes template files to generate configuration files for various applications"
+      ]
+    },
+    {
+      "name": "Batfetch",
+      "summary": "BatFetch – A command-line tool that displays detailed battery information in a clean and organized format, inspired by pfetch. Shows battery model, charge level, power state, health status, and includes an ASCII art title for visual appeal. Open-source, actively maintained on GitHub, and available on AUR for easy installation on Arch Linux.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/Batfetch",
+      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
+      "techstack": [
+        "linux Filesystem",
+        "Awk, sed",
+        "Bash",
+        "jq",
+        "unix Signal"
+      ],
+      "details": [
+        "High-performance C++17 CLI tool that extracts dominant colors from images using OpenCV and K-means clustering, generating theme files for Linux applications.",
+        "Intelligent Color Extraction: Identifies visually distinct colors using K-means and LAB-based perceptual filtering.",
+        "Template Engine: Auto-generates multi-format theme files (HEX, RGB, RGBA, HSL, HSV, LAB) for Waybar, Hyprland, Alacritty, and more.",
+        "Real-time Application: Applies colors system-wide on-the-fly across terminal emulators, TTYs, and Linux programs with minimal configuration.",
+        "Modular and Customizable: Supports template-driven workflows and automation hooks for instant theme application."
+      ]
+    },
+
+    {
       "name": "Mtag Gen",
       "summary": "Meta tag generator web app with live preview and SEO-focused tag creation. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["WebDev"],
       "url": "https://github.com/ashish-kus/SEO_metaTag_generater",
       "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
       "techstack": ["HTML", "CSS", "JavaScript", "Netlify"],
@@ -131,6 +180,7 @@
     {
       "name": "Waybar-Hotspot",
       "summary": "Waybar module to manage Wi-Fi hotspots with GUI prompts and QR code sharing. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["Linux"],
       "url": "https://github.com/ashish-kus/waybar-hotspot",
       "imageUrl": "https://github.com/ashish-kus/waybar-hotspot/raw/main/Preview/waybar-Hotspot.png",
       "techstack": ["Bash", "Zenity", "create_ap", "QR"],

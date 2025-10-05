@@ -7,7 +7,7 @@ const Landing = ({ basics }) => {
 
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-10 flex justify-cente">
         <GitHubCalendar username="ashish-kus" />
       </div>
       <div className="text-secondary mt-10 md:mt-16 lg:mt-24">

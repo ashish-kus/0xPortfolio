@@ -1,5 +1,6 @@
 import React from "react";
 import Landing from "../components/Landing.jsx";
+import ActionButtonList from "../components/ActionButtonList.jsx";
 import Project from "../components/Project.jsx";
 import Experience from "../components/Experience.jsx";
 import Skills from "../components/Skills.jsx";
@@ -10,6 +11,7 @@ function Home({ data }) {
   return (
     <>
       <Landing basics={data.basics} />
+      <ActionButtonList />
       <Experience data={data.experience} />
       <Project data={data.projects} />
       <Skills skills={data.skills} />
