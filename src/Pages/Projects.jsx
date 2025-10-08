@@ -184,7 +184,7 @@ const Projects = ({ data = [] }) => {
       : data.filter((p) => p.category.includes(selectedCategory));
 
   return (
-    <main className="min-h-screen bg-primary px-4 sm:px-6 md:px-12 lg:px-20 py-12">
+    <main className="min-h-screen bg-primary  py-12">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
         Projects
       </h1>
