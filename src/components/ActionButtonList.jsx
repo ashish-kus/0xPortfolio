@@ -1,4 +1,5 @@
 import ActionButton from "./ActionButton.jsx";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const downloadResume = () => {
@@ -20,6 +21,9 @@ export default function Home() {
     <div className="flex gap-4 py-4">
       <ActionButton label="Download Resume" onClick={downloadResume} />
       <ActionButton label="Blogs" onClick={goToBlog} />
+      <Link to="/projects">
+        <ActionButton label="Projects" />
+      </Link>
     </div>
   );
 }

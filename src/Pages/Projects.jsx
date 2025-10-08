@@ -185,10 +185,15 @@ const Projects = ({ data = [] }) => {
 
   return (
     <main className="min-h-screen bg-primary px-4 sm:px-6 md:px-12 lg:px-20 py-12">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-mono font-semibold text-secondary text-center pb-8">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
         Projects
       </h1>
-
+      <p className="py-8 text-sm sm:text-md md:text-lg lg:text-lg text-justify">
+        Nested routes allow you change parts of the page when you navigate to a
+        new URL, while other parts is not changed or reloaded, almost like
+        having a page within a page. Let's use the example above, and add two
+        new components that will be rendered inside the Products.
+      </p>
       {/* Category Filter Bar */}
       <div className="flex flex-wrap justify-center gap-3 mb-8">
         {allCategories.map((cat) => (
@@ -207,7 +212,7 @@ const Projects = ({ data = [] }) => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {filteredProjects.map((project, idx) => (
           <ProjectCard key={idx} project={project} />
         ))}
