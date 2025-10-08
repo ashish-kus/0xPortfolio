@@ -12,7 +12,7 @@ npm run build
 # Add CNAME
 echo "🌐 Adding CNAME..."
 mkdir -p dist
-echo "0xblogs.ashishkus.com" >dist/CNAME
+echo "ashishkus.com" >dist/CNAME
 
 # Copy dist/ to docs/ for GitHub Pages
 echo "📂 Moving build to docs..."
