@@ -3,7 +3,6 @@ set -e
 
 # Clean old build folders
 echo "🧹 Cleaning old build folders..."
-rm -rf dist/ docs/
 
 # Build the React app with Vite
 echo "🏗️ Building React app..."
