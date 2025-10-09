@@ -9,12 +9,15 @@ import ProfilePage from "./Pages/ProfilePage.jsx";
 
 function App() {
   return (
-    <div className="bg-primary h-full w-full py-4 font-raleway pb-20 overflow-hidden">
+    <div className="bg-primary h-full w-full font-raleway overflow-hidden">
       <div className="mx-auto w-full max-w-full px-4 sm:max-w-[75%] lg:max-w-[50%]">
         <Routes>
           <Route path="/" element={<Home data={data} />} />
           <Route path="/projects" element={<Projects data={data.projects} />} />
-          <Route path="/connect" element={<ContactPage />} />
+          <Route
+            path="/connect"
+            element={<ContactPage basics={data.basics} />}
+          />
           <Route
             path="/profile"
             element={<ProfilePage basics={data.basics} />}

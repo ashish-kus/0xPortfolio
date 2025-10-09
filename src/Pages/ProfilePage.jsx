@@ -7,7 +7,20 @@ import ActionButtonList from "../components/ActionButtonList.jsx";
 const ProfilePage = ({ basics }) => {
   const cardRef = useRef(null);
   const [isSharing, setIsSharing] = useState(false);
-  const { name, title, tags, email, github, linkedin } = basics;
+  const {
+    name,
+    title,
+    tags,
+    email,
+    github,
+    linkedin,
+    x,
+    phone,
+    instagram,
+    telegram,
+    whatsapp,
+    portfolio,
+  } = basics;
 
   const handleShare = async () => {
     setIsSharing(true);
@@ -43,15 +56,15 @@ const ProfilePage = ({ basics }) => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6">
-      <div ref={cardRef} className="">
+    <div className="h-screen flex items-center justify-center px-6 overflow-hidden">
+      <div ref={cardRef} className="bg-primary relative p-4">
         {/* Profile Image */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
           {name}
         </h2>
         <p className="text-lg sm:text-xl font-bold mt-2">{title}</p>
 
-        <div className="flex-wrap gap-2 mt-4 flex items-center justify-center">
+        <div className="flex-wrap gap-2 mt-4 flex ">
           {tags.map((tag, index) => (
             <span
               key={index}
@@ -79,7 +92,7 @@ const ProfilePage = ({ basics }) => {
               className="hover:text-white transition flex items-center gap-2"
             >
               <Github size={18} />
-              htpps://github.com/ashish-kus
+              {github}
             </a>
             <a
               href={linkedin}
@@ -88,7 +101,7 @@ const ProfilePage = ({ basics }) => {
               className="hover:text-white transition flex items-center gap-2"
             >
               <Linkedin size={18} />
-              LinkedIn
+              {linkedin}
             </a>
             <a
               href="https://ashishkus.com"
@@ -97,7 +110,7 @@ const ProfilePage = ({ basics }) => {
               className="hover:text-white transition flex items-center gap-2"
             >
               <Globe size={18} />
-              Portfolio
+              {portfolio}
             </a>
           </div>
 
@@ -107,34 +120,31 @@ const ProfilePage = ({ basics }) => {
               value="https://ashishkus.com"
               bgColor="#111"
               fgColor="#ffffff"
-              size={90}
+              size={110}
             />
-            <p className="text-xs text-gray-500 mt-2">
-              Scan to visit ashishkus.com
-            </p>
           </div>
         </div>
         {/* Action Buttons */}
         <ActionButtonList />
+        <button
+          onClick={handleShare}
+          disabled={isSharing}
+          className={`absolute top-0 right-1 p-3 rounded-full shadow-lg transition ${
+            isSharing
+              ? "bg-gray-600 cursor-not-allowed"
+              : "bg-white text-black hover:bg-gray-200"
+          }`}
+          title="Share this profile as image"
+        >
+          {isSharing ? (
+            <Loader2 size={20} className="animate-spin" />
+          ) : (
+            <Share2 size={20} />
+          )}
+        </button>
       </div>
 
       {/* Floating Share Button */}
-      <button
-        onClick={handleShare}
-        disabled={isSharing}
-        className={`fixed bottom-6 right-6 p-3 rounded-full shadow-lg transition ${
-          isSharing
-            ? "bg-gray-600 cursor-not-allowed"
-            : "bg-white text-black hover:bg-gray-200"
-        }`}
-        title="Share this profile as image"
-      >
-        {isSharing ? (
-          <Loader2 size={20} className="animate-spin" />
-        ) : (
-          <Share2 size={20} />
-        )}
-      </button>
     </div>
   );
 };

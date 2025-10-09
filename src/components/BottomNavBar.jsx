@@ -24,7 +24,7 @@ const BottomNavBar = () => {
   ];
 
   return (
-    <nav className="mx-auto fixed bottom-0 lg:top-0 lg:bottom-auto left-0 right-0 z-9 max-w-full sm:max-w-[75%] lg:max-w-[50%]">
+    <nav className="mx-auto fixed bottom-0 lg:top-0 lg:bottom-auto left-0 right-0 z-9 max-w-full sm:max-w-[75%] lg:max-w-[50%] overflow-hidden">
       <div className="px-1  sm:px-2 md:px-2 sm:py-3">
         <div className="flex items-center justify-around">
           <div className="flex w-full sm:w-auto bg-primary sm:rounded-3xl border border-gray-700 px-2 py-2">

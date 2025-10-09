@@ -16,7 +16,12 @@
     "email": "ashish.kus2408@gmail.com",
     "phone": "+91 7525874187",
     "github": "https://github.com/ashish-kus",
-    "linkedin": "https://www.linkedin.com/in/ashish-kushwaha2408"
+    "linkedin": "https://www.linkedin.com/in/ashish-kushwaha2408",
+    "telegram": "https://t.me/ashishk2408",
+    "whatsapp": "https://wa.me/917525874187",
+    "x": "https://x.com/AshishKus2408",
+    "instagram": "https://www.instagram.com/_ashish_kushwaha_/",
+    "portfolio": "https://ashishkus.com"
   },
 
   "education": [
@@ -99,7 +104,7 @@
     {
       "name": "HireLift",
       "summary": "Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
-      "category": ["webDev", "DevOps"],
+      "category": ["WebDev", "DevOps"],
       "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
       "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
       "techstack": [
