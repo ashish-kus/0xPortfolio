@@ -1,6 +1,7 @@
 ## 🚀 Ashish Kushwaha’s Portfolio
 
-![./assets/Preview.png](Preview)
+![Preview](./assets/Preview.png)
+
 Welcome to the place where I **pretend to be productive** and show off things I _actually built_ 😎.
 Built with **React**, **Tailwind**, and an _unhealthy amount of caffeine_.
 
