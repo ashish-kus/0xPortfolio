@@ -11,7 +11,7 @@ function Home({ data }) {
   return (
     <>
       <Landing basics={data.basics} />
-      <ActionButtonList />
+      <ActionButtonList data={data.basics} />
       <Experience data={data.experience} />
       <Project data={data.projects} />
       <Skills skills={data.skills} />

@@ -1,12 +1,13 @@
 import ActionButton from "./ActionButton.jsx";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Home({ data }) {
+  const { resume, blog } = data;
+
   const downloadResume = () => {
     // Replace URL with your hosted resume
     const link = document.createElement("a");
-    link.href =
-      "https://raw.githubusercontent.com/ashish-kus/latex-resume/main/main.pdf";
+    link.href = { resume };
     link.download = "Ashish_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -14,7 +15,7 @@ export default function Home() {
   };
 
   const goToBlog = () => {
-    window.open("https://0xblogs.ashishkus.com", "_blank");
+    window.open(blog, "_blank");
   };
 
   return (
