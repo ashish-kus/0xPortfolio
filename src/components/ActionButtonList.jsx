@@ -5,9 +5,8 @@ export default function Home({ data }) {
   const { resume, blog } = data;
 
   const downloadResume = () => {
-    // Replace URL with your hosted resume
     const link = document.createElement("a");
-    link.href = { resume };
+    link.href = resume;
     link.download = "Ashish_Resume.pdf";
     document.body.appendChild(link);
     link.click();
