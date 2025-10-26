@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects.jsx";
 import BottomNavBar from "./components/BottomNavBar.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
 import ProfilePage from "./Pages/ProfilePage.jsx";
+import NotFound from "./Pages/NotFound.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             path="/profile"
             element={<ProfilePage basics={data.basics} />}
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <BottomNavBar />
       </div>
