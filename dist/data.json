@@ -1,0 +1,297 @@
+{
+  "basics": {
+    "name": "Ashish Kushwaha",
+    "title": "DevOps / Software Developer Engineer",
+    "summery": "A passionate and self-driven Software Developer and Computer Science dual-degree (B.Tech + M.Tech) student with an 8.5 CGPA, I bring a robust background in full-stack web development, specializing in efficient, scalable, and user-focused applications using modern JavaScript frameworks (React, Svelte), Tailwind CSS, and Chrome Extension APIs. I've led end-to-end product development, notably HireLift—an AI-driven Chrome extension.",
+    "tags": [
+      "open source",
+      "aws",
+      "Arch Linux",
+      "Web Development",
+      "C++",
+      "Bash Scripting",
+      "JavaScript",
+      "MERN"
+    ],
+    "resume": "https://ashishkus-resume.s3.ap-south-1.amazonaws.com/Ashish_Kushwaha.pdf",
+    "blog": "https://0xblogs.ashishkus.com/",
+    "email": "ashish.kus2408@gmail.com",
+    "phone": "+91 7525874187",
+    "github": "https://github.com/ashish-kus",
+    "linkedin": "https://www.linkedin.com/in/ashish-kushwaha2408",
+    "telegram": "https://t.me/ashishk2408",
+    "whatsapp": "https://wa.me/917525874187",
+    "x": "https://x.com/AshishKus2408",
+    "instagram": "https://www.instagram.com/_ashish_kushwaha_/",
+    "portfolio": "https://ashishkus.com"
+  },
+
+  "education": [
+    {
+      "institution": "Gautam Buddha University",
+      "location": "Greater Noida, Uttar Pradesh",
+      "degree": "B. Tech + M. Tech CSE in Software Engineering",
+      "cgpa": "8.5",
+      "dates": "August 2020 – Present"
+    },
+    {
+      "institution": "Narayana IIT Academy, Raviryala",
+      "location": "Hyderabad, Telangana",
+      "degree": "Intermediate – Physics, Chemistry, Mathematics",
+      "percentage": "88%",
+      "dates": "March 2017 – March 2019"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Software Development Engineer",
+      "company": "Arial Labs",
+      "type": "Remote",
+      "duration": "June 2024 – April 2025",
+      "location": "California",
+      "description": "Contributed to core product development, starting with React.js static pages and advancing to building a Chrome extension with Manifest V3. Integrated Claude API with AWS Lambda, DynamoDB, and S3 for scalable AI features. Deployed MVP with a dashboard to track user activity and internal operations.",
+      "skills": [
+        "React.js",
+        "Tailwind CSS",
+        "Chrome Extension",
+        "Claude API",
+        "AWS Lambda",
+        "DynamoDB",
+        "S3",
+        "GitHub",
+        "Serverless"
+      ]
+    },
+    {
+      "title": "Internship Trainee",
+      "company": "Samsung Innovation Campus",
+      "type": "Full-time",
+      "duration": "Jun 2024 – Sep 2024 · 4 mos",
+      "location": "Greater Noida, On-site",
+      "description": "Completed intensive AI training focused on real-world applications of Artificial Intelligence and Data Science. Worked on practical AI projects involving machine learning, classification, and predictive modeling. Conducted ETL, EDA, and built dashboards using Power BI and Excel.",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Data Analysis",
+        "Power BI",
+        "Excel",
+        "EDA",
+        "ETL",
+        "AI"
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "Gautam Buddha University",
+      "type": "In-campus",
+      "duration": "March 2023 – June 2023",
+      "location": "Greater Noida",
+      "description": "Designed and developed a job applicant tracking frontend using the MERN stack. Worked with the Registrar’s Office to gather requirements and deliver feature-driven updates that streamlined university hiring.",
+      "skills": [
+        "MERN Stack",
+        "React.js",
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "Frontend",
+        "UI/UX",
+        "Requirement Gathering"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HireLift",
+      "summary": "Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["WebDev", "DevOps"],
+      "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
+      "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
+      "techstack": [
+        "Chrome Extension APIs",
+        "WebSockets",
+        "AWS Lambda",
+        "S3",
+        "IAM",
+        "EC2",
+        "VPC",
+        "CloudWatch",
+        "DynamoDB",
+        "REST APIs"
+      ],
+      "details": [
+        "AI-powered Chrome extension used by 10+ hiring managers across 60+ interviews to streamline technical evaluations.",
+        "Integrates with Google Meet/MS Teams to analyze live captions and JD–CV uploads, generating real-time questions.",
+        "Generates post-interview summaries with tech skills, JD alignment, and key candidate insights via the dashboard."
+      ]
+    },
+    {
+      "name": "Huegen",
+      "summary": "High-performance C++17 CLI tool using OpenCV for K-means color extraction, outperforming similar engines like Pywal. Features a template-driven system to generate multi-format theme files and apply colors system-wide in real-time across terminal emulators, TTYs, and Linux applications with minimal configuration.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/Huegen",
+      "imageUrl": "https://github.com/ashish-kus/Huegen/blob/main/Previews/1.png?raw=true",
+      "techstack": [
+        "C++ 17",
+        "OpenCV",
+        "Bash",
+        "nlohmann/json",
+        "CMake",
+        "linux sockets"
+      ],
+      "details": [
+        "Huegen is a C++ tool that extracts distinctive colors from images and generates theme files for various applications. It uses advanced color analysis techniques including K-means clustering and perceptual color distance calculations to create visually appealing color palettes.",
+        "Intelligent Color Extraction: Uses K-means clustering to identify dominant colors",
+        "Perceptual Color Selection: Selects the most visually distinct colors using LAB color space",
+        "Multiple Color Formats: Supports HEX, RGB, RGBA, HSL, HSV, and LAB formats",
+        "Template Engine: Processes template files to generate configuration files for various applications"
+      ]
+    },
+    {
+      "name": "Batfetch",
+      "summary": "BatFetch – A command-line tool that displays detailed battery information in a clean and organized format, inspired by pfetch. Shows battery model, charge level, power state, health status, and includes an ASCII art title for visual appeal. Open-source, actively maintained on GitHub, and available on AUR for easy installation on Arch Linux.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/Batfetch",
+      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
+      "techstack": [
+        "linux Filesystem",
+        "Awk, sed",
+        "Bash",
+        "jq",
+        "unix Signal"
+      ],
+      "details": [
+        "High-performance C++17 CLI tool that extracts dominant colors from images using OpenCV and K-means clustering, generating theme files for Linux applications.",
+        "Intelligent Color Extraction: Identifies visually distinct colors using K-means and LAB-based perceptual filtering.",
+        "Template Engine: Auto-generates multi-format theme files (HEX, RGB, RGBA, HSL, HSV, LAB) for Waybar, Hyprland, Alacritty, and more.",
+        "Real-time Application: Applies colors system-wide on-the-fly across terminal emulators, TTYs, and Linux programs with minimal configuration.",
+        "Modular and Customizable: Supports template-driven workflows and automation hooks for instant theme application."
+      ]
+    },
+
+    {
+      "name": "Mtag Gen",
+      "summary": "Meta tag generator web app with live preview and SEO-focused tag creation. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["WebDev"],
+      "url": "https://github.com/ashish-kus/SEO_metaTag_generater",
+      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
+      "techstack": ["HTML", "CSS", "JavaScript", "Netlify"],
+      "details": [
+        "Developed an intuitive web app to preview and generate SEO meta tags (HTML, Open Graph, Twitter Cards) for websites.",
+        "Allows users to fetch metadata from a URL or manually input values to create optimized tags in seconds.",
+        "Deployed on Netlify and featured a clean UI/UX focused on simplicity, accessibility, and quick SEO validation."
+      ]
+    },
+    {
+      "name": "Waybar-Hotspot",
+      "summary": "Waybar module to manage Wi-Fi hotspots with GUI prompts and QR code sharing. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/waybar-hotspot",
+      "imageUrl": "https://github.com/ashish-kus/waybar-hotspot/raw/main/Preview/waybar-Hotspot.png",
+      "techstack": ["Bash", "Zenity", "create_ap", "QR"],
+      "details": [
+        "Waybar module for monitoring and managing Wi-Fi hotspot status with graphical prompts using Zenity.",
+        "Supports custom configurations for create_ap and QR code display in tooltips for easy access."
+      ]
+    }
+  ],
+
+  "skills": {
+    "languages": [
+      "C++",
+      "C",
+      "Bash",
+      "JavaScript",
+      "Python",
+      "Go",
+      "Lua",
+      "LaTeX",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": ["ReactJS", "FXTUI", "TailwindCSS", "Chrome Extensions"],
+    "databases": ["MySQL", "MongoDB"],
+    "tools": [
+      "SEO",
+      "AWS",
+      "QEMU",
+      "Linux",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Docker",
+      "nginx",
+      "Arch",
+      "Ubuntu",
+      "nVim",
+      "cPanel"
+    ],
+    "softSkills": [
+      "Effective Communication",
+      "Problem-Solving",
+      "Leadership",
+      "Adaptability",
+      "Team Collaboration"
+    ]
+  },
+
+  "certificates": [
+    {
+      "title": "Introduction to Oracle Cloud Essentials",
+      "summery": "Gained foundational understanding of cloud computing through Oracle Cloud Infrastructure. Learned to provision and manage compute instances, object storage, and networking components. Demonstrated knowledge of IAM, compartments, and cost management within OCI.",
+      "issuer": "Oracle",
+      "issueDate": "Jun 2025",
+      "credentialId": "115954",
+      "credentialUrl": "https://example.com/oracle-cloud-essentials",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/512px-Oracle_logo.svg.png",
+      "skills": [
+        "Cloud Computing",
+        "Cloud Storage",
+        "Oracle Applications",
+        "Oracle Database",
+        "Cloud Security",
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PAAS)",
+        "Oracle Enterprise Resource Planning (ERP) Cloud",
+        "Oracle Cloud"
+      ]
+    },
+    {
+      "title": "Introduction to Linux (LFS101)",
+      "summery": "Completed the Linux 101 course by The Linux Foundation, covering fundamental Linux concepts including file system hierarchy, process management, permissions, shell scripting, and basic networking. Gained hands-on experience with command-line tools and system administration tasks in a Linux environment.",
+      "issuer": "The Linux Foundation",
+      "issueDate": "May 2025",
+      "credentialId": "LF-vcoky5987",
+      "credentialUrl": "https://example.com/linux-foundation-lfs101",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Linux_Foundation_logo.svg/512px-Linux_Foundation_logo.svg.png",
+      "skills": [
+        "Bash",
+        "Networking",
+        "System Administration",
+        "Linux System Administration",
+        "Network Security",
+        "Network File System (NFS)",
+        "IT Operations"
+      ]
+    },
+    {
+      "title": "CVR 2025 Research Paper Presentation Certificate",
+      "issuer": "Training and Placement Cell, NIT Goa",
+      "summery": "Authored and published a research paper focused on optimizing CPU instruction issue (CPII) frequency scaling to enhance energy efficiency and performance in modern processors. The paper presents analytical models and experimental results demonstrating dynamic scaling strategies for reducing power consumption while maintaining processing throughput.",
+      "issueDate": "Apr 2025",
+      "credentialId": "SCRS|CVR2025|PC|1134",
+      "credentialUrl": "https://example.com/cvr-research-certificate",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/NIT_Goa_Logo.svg/512px-NIT_Goa_Logo.svg.png",
+      "skills": ["Research and Development (R&D)"]
+    }
+  ],
+  "certificationsAchievements": [
+    "Published research paper titled “Adaptive Task-Based CPU Scaling for Efficient Power Allocation in Edge Computing.”",
+    "Introduction to Linux (LFS101) covering core Linux system and various command-line fundamentals by The Linux Foundation.",
+    "Earned the Hacktoberfest 2024 Badges, published multiple packages on AUR.",
+    "Winner of multiple hackathons, like Bhabha Bandhu by Microsoft, Glitch pan-India Hackathon on open source development.",
+    "Founder of Hackfed tech community and secretary of Techno Cultural Club and Ecell Gautam Buddha University."
+  ]
+}

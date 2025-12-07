@@ -7,6 +7,7 @@ import BottomNavBar from "./components/BottomNavBar.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
 import ProfilePage from "./Pages/ProfilePage.jsx";
 import NotFound from "./Pages/NotFound.jsx";
+import PortfolioChatbot from "./components/PortfolioChatbot.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <PortfolioChatbot />
         <BottomNavBar />
       </div>
     </div>
