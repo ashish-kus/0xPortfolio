@@ -1,9 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import { MessageCircle, X, Send, Loader2 } from "lucide-react";
-import myfavicon from "../assets/favicon.png";
 
 const API_URL =
   "https://2mpe7ijza3ypxrxvdxxlzyodkq0xcvne.lambda-url.ap-south-1.on.aws/ask";
+import myfavicon from "../assets/favicon.png";
+
+// Placeholder favicon - replace with your actual favicon
+// const myfavicon =
+//  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FF5722'/%3E%3Ctext x='50' y='50' font-size='60' text-anchor='middle' dy='.3em' fill='white'%3EA%3C/text%3E%3C/svg%3E";
 
 export default function PortfolioChatbot() {
   const [isClient, setIsClient] = useState(false);
@@ -19,7 +23,6 @@ export default function PortfolioChatbot() {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  // Fix hydration issue by only rendering on client
   useEffect(() => {
     setIsClient(true);
   }, []);
@@ -77,7 +80,6 @@ export default function PortfolioChatbot() {
     }
   };
 
-  // Don't render anything until client-side hydration is complete
   if (!isClient) {
     return null;
   }
@@ -86,7 +88,7 @@ export default function PortfolioChatbot() {
     <div className="fixed bottom-6 right-6 z-50">
       {/* Chat Popup */}
       {isOpen && (
-        <div className="mb-4 w-96 h-[500px] bg-[#1d1e20] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-gray-800">
+        <div className="mb-4 w-[95vw] sm:w-[450px] md:w-[500px] lg:w-[550px] h-[600px] bg-[#1d1e20] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-gray-800">
           {/* Header */}
           <div className="bg-[#1d1e20] border-b border-gray-800 text-[#F8F9FA] p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -111,7 +113,7 @@ export default function PortfolioChatbot() {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-[#1d1e20]">
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-[#1d1e20] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {messages.map((message, index) => (
               <div
                 key={index}
@@ -120,16 +122,16 @@ export default function PortfolioChatbot() {
                 <div
                   className={`max-w-[80%] rounded-lg p-3 ${
                     message.type === "user"
-                      ? "bg-blue-600 text-white"
-                      : "bg-white text-gray-800 shadow-sm border border-gray-200"
+                      ? "bg-[#FF5722] text-white"
+                      : "bg-[#2a2b2d] text-[#F8F9FA] shadow-sm border border-gray-700"
                   }`}
                 >
                   <p className="text-sm whitespace-pre-wrap">{message.text}</p>
                   <p
                     className={`text-xs mt-1 ${
                       message.type === "user"
-                        ? "text-blue-100"
-                        : "text-gray-500"
+                        ? "text-orange-100"
+                        : "text-gray-400"
                     }`}
                   >
                     {message.timestamp.toLocaleTimeString([], {
@@ -174,13 +176,15 @@ export default function PortfolioChatbot() {
         </div>
       )}
 
-      {/* Chat Bubble Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="bg-[#FF5722] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:bg-[#E64A19] transition-all hover:scale-105 flex items-center justify-center"
-      >
-        {isOpen ? <X size={24} /> : <MessageCircle size={24} />}
-      </button>
+      {/* Chat Bubble Button - Only shows when chat is closed */}
+      {!isOpen && (
+        <button
+          onClick={() => setIsOpen(true)}
+          className="bg-[#FF5722] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:bg-[#E64A19] transition-all hover:scale-105 flex items-center justify-center"
+        >
+          <MessageCircle size={24} />
+        </button>
+      )}
     </div>
   );
 }
