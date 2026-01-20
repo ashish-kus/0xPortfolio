@@ -187,10 +187,9 @@ const Project = ({ data = [] }) => {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {data.map((project, index) => (
+        {data.slice(0, 5).map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
-
         <div className="flex items-center justify-center border rounded-lg border-gray-700 text-secondary bg-primary overflow-hidden h-full">
           <a
             href="https://github.com/ashish-kus"

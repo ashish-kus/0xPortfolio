@@ -21,7 +21,7 @@ const ProfilePage = ({ basics }) => {
     telegram,
     whatsapp,
     portfolio,
-  } = basics;
+  } = basics ?? {};
 
   const handleShare = async () => {
     setIsSharing(true);
@@ -126,8 +126,10 @@ const ProfilePage = ({ basics }) => {
               />
             </div>
           </div>
-          {/* Action Buttons */}
+          {/* Action Buttons 
           <ActionButtonList />
+*/}
+          <ActionButtonList data={basics} />
           <button
             onClick={handleShare}
             disabled={isSharing}
