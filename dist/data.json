@@ -104,32 +104,116 @@
   ],
   "projects": [
     {
-      "name": "HireLift",
-      "summary": "Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
-      "category": ["WebDev", "DevOps"],
-      "url": "https://chromewebstore.google.com/detail/hirelift/gchcmaknjamkfbcgbafcchcglpeagidi",
-      "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
-      "techstack": [
-        "Chrome Extension APIs",
-        "WebSockets",
-        "AWS Lambda",
-        "S3",
-        "IAM",
-        "EC2",
-        "VPC",
-        "CloudWatch",
-        "DynamoDB",
-        "REST APIs"
-      ],
+      "name": "0xPortfolio",
+      "summary": "Personal portfolio showcasing professional journey, skills, and a curated collection of projects and experiences.",
+      "category": ["WebDev"],
+      "url": "https://github.com/ashish-kus/0xPortfolio",
+      "imageUrl": "",
+      "techstack": ["JavaScript"],
       "details": [
-        "AI-powered Chrome extension used by 10+ hiring managers across 60+ interviews to streamline technical evaluations.",
-        "Integrates with Google Meet/MS Teams to analyze live captions and JD–CV uploads, generating real-time questions.",
-        "Generates post-interview summaries with tech skills, JD alignment, and key candidate insights via the dashboard."
+        "Built as a centralized portfolio to present projects, skills, and achievements in a structured way for recruiters and collaborators.",
+        "Implements a modern web UI to highlight key work with clear navigation and sections tailored for a software developer profile."
+      ]
+    },
+    {
+      "name": "0xResume",
+      "summary": "Automated resume build system that dynamically updates and syncs across cloud environments.",
+      "category": ["DevOps", "Automation"],
+      "url": "https://github.com/ashish-kus/0xResume",
+      "imageUrl": "",
+      "techstack": ["TeX", "DevOps tooling"],
+      "details": [
+        "Uses LaTeX and automation workflows to generate resumes from a single source of truth, reducing manual edits.",
+        "Designed to sync and update resumes reliably across environments, enabling consistent profile updates for different use cases."
+      ]
+    },
+    {
+      "name": "OpenAI_SDK_Research_Assistant",
+      "summary": "Research assistant that uses the OpenAI SDK to automate web research, generate reports, and compare them with existing documents.",
+      "category": ["AI", "WebDev"],
+      "url": "https://github.com/ashish-kus/OpenAI_SDK_Research_Assistant",
+      "imageUrl": "",
+      "techstack": ["Python", "OpenAI SDK"],
+      "details": [
+        "Automates web research workflows and compiles findings into structured, human-readable reports.",
+        "Supports document comparison to highlight differences and similarities between new research outputs and existing material."
+      ]
+    },
+    {
+      "name": "SupportAI-Voice",
+      "summary": "Voice-enabled RAG system that lets users query their PDFs using speech through an OpenAI SDK and Streamlit-based interface.",
+      "category": ["AI", "WebDev"],
+      "url": "https://github.com/ashish-kus/SupportAI-Voice",
+      "imageUrl": "",
+      "techstack": ["Python", "Streamlit", "OpenAI SDK"],
+      "details": [
+        "Enables users to upload PDF documents and ask voice-based questions, returning context-aware answers from the content.",
+        "Demonstrates a Retrieval-Augmented Generation pipeline integrating audio input, document retrieval, and LLM responses."
+      ]
+    },
+    {
+      "name": "ContextPDF",
+      "summary": "Multi-PDF chatbot that allows users to upload several PDFs and chat with them using context-aware question answering.",
+      "category": ["AI", "WebDev"],
+      "url": "https://github.com/ashish-kus/ContextPDF",
+      "imageUrl": "",
+      "techstack": ["Python"],
+      "details": [
+        "Implements PDF ingestion and context retrieval to power conversational queries over multiple documents.",
+        "Provides a chat interface tailored to explore, summarize, and clarify information contained across PDFs."
+      ]
+    },
+    {
+      "name": "ProxyMe-",
+      "summary": "Mini AI agent that acts as a proxy version of the author and responds to queries on their behalf.",
+      "category": ["AI", "WebDev"],
+      "url": "https://github.com/ashish-kus/ProxyMe-",
+      "imageUrl": "",
+      "techstack": ["JavaScript"],
+      "details": [
+        "Designed to answer questions as if they were coming from the author, based on predefined logic and data.",
+        "Explores the idea of personal AI agents tailored to an individual's preferences and information."
+      ]
+    },
+    {
+      "name": "0xBlogs",
+      "summary": "Technical blog site documenting learnings and insights in software, Linux, and cloud development.",
+      "category": ["WebDev", "Linux", "Cloud"],
+      "url": "https://github.com/ashish-kus/0xBlogs",
+      "imageUrl": "",
+      "techstack": ["HTML", "Hugo"],
+      "details": [
+        "Organizes technical articles focused on efficient software engineering, Linux workflows, and cloud tooling.",
+        "Uses a static-site setup to publish posts with minimal overhead and fast load times."
+      ]
+    },
+    {
+      "name": "Devops-automation",
+      "summary": "DevOps-focused automation utilities implemented in C++.",
+      "category": ["DevOps", "Automation"],
+      "url": "https://github.com/ashish-kus/Devops-automation",
+      "imageUrl": "",
+      "techstack": ["C++"],
+      "details": [
+        "Contains scripts and tools to automate repetitive DevOps and infrastructure-related tasks.",
+        "Targets improved reliability and reduced manual intervention in development and deployment workflows."
+      ]
+    },
+    {
+      "name": "dotfiles",
+      "summary": "Bare-repo managed dotfiles for consolidating Linux configuration in a single place.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/dotfiles",
+      "imageUrl": "",
+      "techstack": ["Shell", "Git"],
+      "details": [
+        "Uses a bare Git repository approach to track configuration files across the Linux system without clutter.",
+        "Centralizes window manager, shell, editor, and other environment customizations for reproducible setups."
       ]
     },
     {
       "name": "Huegen",
-      "summary": "High-performance C++17 CLI tool using OpenCV for K-means color extraction, outperforming similar engines like Pywal. Features a template-driven system to generate multi-format theme files and apply colors system-wide in real-time across terminal emulators, TTYs, and Linux applications with minimal configuration.",
+      "summary": "Fast C++ wallpaper color extractor and theming engine using K-means and perceptual color analysis.",
       "category": ["Linux"],
       "url": "https://github.com/ashish-kus/Huegen",
       "imageUrl": "https://github.com/ashish-kus/Huegen/blob/main/Previews/1.png?raw=true",
@@ -139,61 +223,251 @@
         "Bash",
         "nlohmann/json",
         "CMake",
-        "linux sockets"
+        "Linux sockets"
       ],
       "details": [
-        "Huegen is a C++ tool that extracts distinctive colors from images and generates theme files for various applications. It uses advanced color analysis techniques including K-means clustering and perceptual color distance calculations to create visually appealing color palettes.",
-        "Intelligent Color Extraction: Uses K-means clustering to identify dominant colors",
-        "Perceptual Color Selection: Selects the most visually distinct colors using LAB color space",
-        "Multiple Color Formats: Supports HEX, RGB, RGBA, HSL, HSV, and LAB formats",
-        "Template Engine: Processes template files to generate configuration files for various applications"
+        "Extracts dominant and visually distinct colors from images using K-means clustering and LAB color space.",
+        "Generates multi-format color schemes and theme files via a template engine to style terminals, TTYs, and Linux apps."
       ]
     },
     {
-      "name": "Batfetch",
-      "summary": "BatFetch – A command-line tool that displays detailed battery information in a clean and organized format, inspired by pfetch. Shows battery model, charge level, power state, health status, and includes an ASCII art title for visual appeal. Open-source, actively maintained on GitHub, and available on AUR for easy installation on Arch Linux.",
+      "name": "LoomFox",
+      "summary": "JavaScript-based HD screen and camera recorder to capture video content together.",
+      "category": ["WebDev"],
+      "url": "https://github.com/ashish-kus/LoomFox",
+      "imageUrl": "",
+      "techstack": ["JavaScript"],
+      "details": [
+        "Provides a browser-based interface to record screen and webcam in high definition simultaneously.",
+        "Focuses on a simple UX for quick recording sessions suitable for demos, tutorials, and walkthroughs."
+      ]
+    },
+    {
+      "name": "Learning",
+      "summary": "Consolidated repository for computer science learning materials and experiments.",
+      "category": ["Education"],
+      "url": "https://github.com/ashish-kus/Learning",
+      "imageUrl": "",
+      "techstack": ["Python", "Miscellaneous CS tools"],
+      "details": [
+        "Organizes algorithms, data structures, and other CS-related exercises used for ongoing study.",
+        "Acts as a sandbox for practicing concepts, patterns, and language features."
+      ]
+    },
+    {
+      "name": "ashish-kus",
+      "summary": "Personal profile repository used for the GitHub profile README and related assets.",
+      "category": ["Meta"],
+      "url": "https://github.com/ashish-kus/ashish-kus",
+      "imageUrl": "",
+      "techstack": [],
+      "details": [
+        "Serves as the main entry point for customizing the GitHub profile page via README content.",
+        "May host badges, links, and highlights about projects and activities."
+      ]
+    },
+    {
+      "name": "devops-directive-github-actions-course",
+      "summary": "Course companion repository for learning GitHub Actions from DevOps Directive.",
+      "category": ["DevOps"],
+      "url": "https://github.com/ashish-kus/devops-directive-github-actions-course",
+      "imageUrl": "",
+      "techstack": ["Python", "GitHub Actions"],
+      "details": [
+        "Includes workflows and examples aligned with the GitHub Actions: Beginner to Pro course.",
+        "Used to practice CI/CD concepts, triggers, and automation patterns on GitHub."
+      ]
+    },
+    {
+      "name": "wallpaper-select-beta",
+      "summary": "Keyboard-friendly wallpaper picker built with PySide6 for Linux desktops.",
       "category": ["Linux"],
-      "url": "https://github.com/ashish-kus/Batfetch",
-      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
-      "techstack": [
-        "linux Filesystem",
-        "Awk, sed",
-        "Bash",
-        "jq",
-        "unix Signal"
-      ],
+      "url": "https://github.com/ashish-kus/wallpaper-select-beta",
+      "imageUrl": "",
+      "techstack": ["Python", "PySide6"],
       "details": [
-        "High-performance C++17 CLI tool that extracts dominant colors from images using OpenCV and K-means clustering, generating theme files for Linux applications.",
-        "Intelligent Color Extraction: Identifies visually distinct colors using K-means and LAB-based perceptual filtering.",
-        "Template Engine: Auto-generates multi-format theme files (HEX, RGB, RGBA, HSL, HSV, LAB) for Waybar, Hyprland, Alacritty, and more.",
-        "Real-time Application: Applies colors system-wide on-the-fly across terminal emulators, TTYs, and Linux programs with minimal configuration.",
-        "Modular and Customizable: Supports template-driven workflows and automation hooks for instant theme application."
+        "Provides a minimal UI to quickly browse and select wallpapers using primarily keyboard navigation.",
+        "Designed to integrate smoothly into tiling window manager workflows."
       ]
     },
-
     {
-      "name": "Mtag Gen",
-      "summary": "Meta tag generator web app with live preview and SEO-focused tag creation. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "name": "xstow",
+      "summary": "Unofficial fork of xstow with extra patches, including support for newer GCC versions.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/xstow",
+      "imageUrl": "",
+      "techstack": ["Roff", "C tooling"],
+      "details": [
+        "Maintains and extends the xstow symlink farm manager with additional fixes.",
+        "Includes patches such as compatibility updates for modern compilers."
+      ]
+    },
+    {
+      "name": "GDrive-get",
+      "summary": "Robust Bash script to download files from Google Drive using share links.",
+      "category": ["Linux", "Automation"],
+      "url": "https://github.com/ashish-kus/GDrive-get",
+      "imageUrl": "",
+      "techstack": ["Bash"],
+      "details": [
+        "Handles Google Drive download URLs and confirmation tokens to reliably fetch large files.",
+        "Simplifies non-interactive downloads in scripts, servers, or headless environments."
+      ]
+    },
+    {
+      "name": "MetaTrader5_archLinux",
+      "summary": "Installer script to set up MetaTrader 5 on Arch Linux.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/MetaTrader5_archLinux",
+      "imageUrl": "",
+      "techstack": ["Bash"],
+      "details": [
+        "Automates the installation and configuration of MetaTrader 5 on Arch-based distributions.",
+        "Addresses compatibility and environment setup steps typically needed for trading software on Linux."
+      ]
+    },
+    {
+      "name": "SEO_metaTag_generater",
+      "summary": "Simple HTML tool for generating SEO meta tags for web pages.",
       "category": ["WebDev"],
       "url": "https://github.com/ashish-kus/SEO_metaTag_generater",
-      "imageUrl": "https://github.com/ashish-kus/batfetch/raw/main/preview/preview-batfetch.png",
-      "techstack": ["HTML", "CSS", "JavaScript", "Netlify"],
+      "imageUrl": "",
+      "techstack": ["HTML"],
       "details": [
-        "Developed an intuitive web app to preview and generate SEO meta tags (HTML, Open Graph, Twitter Cards) for websites.",
-        "Allows users to fetch metadata from a URL or manually input values to create optimized tags in seconds.",
-        "Deployed on Netlify and featured a clean UI/UX focused on simplicity, accessibility, and quick SEO validation."
+        "Provides a basic interface to construct common SEO meta tags for websites.",
+        "Helps developers quickly scaffold metadata without memorizing attribute formats."
       ]
     },
     {
-      "name": "Waybar-Hotspot",
-      "summary": "Waybar module to manage Wi-Fi hotspots with GUI prompts and QR code sharing. Fullstack Chrome extension integrated with OpenAI and Claude, elevating hiring efficiency.",
+      "name": "rofi-bluetooth",
+      "summary": "Rofi-based Bluetooth menu that uses bluetoothctl to manage devices.",
       "category": ["Linux"],
-      "url": "https://github.com/ashish-kus/waybar-hotspot",
-      "imageUrl": "https://github.com/ashish-kus/waybar-hotspot/raw/main/Preview/waybar-Hotspot.png",
-      "techstack": ["Bash", "Zenity", "create_ap", "QR"],
+      "url": "https://github.com/ashish-kus/rofi-bluetooth",
+      "imageUrl": "",
+      "techstack": ["Shell"],
       "details": [
-        "Waybar module for monitoring and managing Wi-Fi hotspot status with graphical prompts using Zenity.",
-        "Supports custom configurations for create_ap and QR code display in tooltips for easy access."
+        "Displays a Rofi menu for listing, connecting, and managing Bluetooth devices via bluetoothctl.",
+        "Aims to streamline Bluetooth interactions in tiling window manager and keyboard-centric setups."
+      ]
+    },
+    {
+      "name": "SOICT-Latex-Kit",
+      "summary": "Modular LaTeX thesis system tailored for Gautam Buddha University to streamline academic writing.",
+      "category": ["Education", "LaTeX"],
+      "url": "https://github.com/ashish-kus/SOICT-Latex-Kit",
+      "imageUrl": "",
+      "techstack": ["TeX"],
+      "details": [
+        "Provides a custom LaTeX class and templates aligned with GBU thesis requirements.",
+        "Supports structured chapters, references, and formatting to reduce setup time for students."
+      ]
+    },
+    {
+      "name": "Linux-System-Monitor",
+      "summary": "Interactive C++ system monitor and process manager for Linux, forked and customized.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/Linux-System-Monitor",
+      "imageUrl": "",
+      "techstack": ["C++"],
+      "details": [
+        "Offers process viewing and management capabilities similar to top/htop with a custom interface.",
+        "Fork includes modifications or experiments on top of the original Linux system monitor project."
+      ]
+    },
+    {
+      "name": "Sticky-Paper",
+      "summary": "Rofi-based minimalist note-taking system optimized for smooth keyboard-first workflow.",
+      "category": ["Linux", "Productivity"],
+      "url": "https://github.com/ashish-kus/Sticky-Paper",
+      "imageUrl": "https://github.com/ashish-kus/Sticky-Paper/raw/main/Preview/preview.png",
+      "techstack": ["Shell", "Rofi"],
+      "details": [
+        "Lets users quickly create, edit, and manage small notes using Rofi menus and simple scripts.",
+        "Designed for low-friction note capture integrated into Linux tiling and minimal setups."
+      ]
+    },
+    {
+      "name": "Hackfed-org",
+      "summary": "Website for the Hackfed community built with JavaScript.",
+      "category": ["WebDev"],
+      "url": "https://github.com/ashish-kus/Hackfed-org",
+      "imageUrl": "",
+      "techstack": ["JavaScript"],
+      "details": [
+        "Implements the Hackfed site with community information, events, and resources.",
+        "Focuses on a straightforward web presence for the organization."
+      ]
+    },
+    {
+      "name": "lazyvim.config",
+      "summary": "Configuration for the LazyVim Neovim distribution.",
+      "category": ["Linux", "Editor"],
+      "url": "https://github.com/ashish-kus/lazyvim.config",
+      "imageUrl": "",
+      "techstack": ["Lua", "Neovim"],
+      "details": [
+        "Customizes LazyVim with plugins, keymaps, and settings tailored to the author's workflow.",
+        "Serves as a reusable Neovim configuration that can be cloned and used on new machines."
+      ]
+    },
+    {
+      "name": "MiniSthetic_Firefox",
+      "summary": "Minimalist dark theme for Firefox focused on simplicity and elegance.",
+      "category": ["Linux", "Theming"],
+      "url": "https://github.com/ashish-kus/MiniSthetic_Firefox",
+      "imageUrl": "",
+      "techstack": ["CSS"],
+      "details": [
+        "Applies subtle dark styling to Firefox for a clean browsing experience.",
+        "Designed to complement minimal Linux desktop setups and reduce visual noise."
+      ]
+    },
+    {
+      "name": "linux-script-utility-library",
+      "summary": "Collection of Linux scripts to simplify and automate everyday tasks.",
+      "category": ["Linux", "Automation"],
+      "url": "https://github.com/ashish-kus/linux-script-utility-library",
+      "imageUrl": "",
+      "techstack": ["Shell"],
+      "details": [
+        "Provides reusable shell utilities for system maintenance, productivity, and quality-of-life tasks.",
+        "Intended to be modular and customizable for different user environments."
+      ]
+    },
+    {
+      "name": "waybar-updates",
+      "summary": "Waybar module to display Arch Linux updates from official repos and AUR.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/waybar-updates",
+      "imageUrl": "",
+      "techstack": ["Shell"],
+      "details": [
+        "Checks for system updates and shows counts in a Waybar segment for quick visibility.",
+        "Supports both official repositories and Arch User Repository packages."
+      ]
+    },
+    {
+      "name": "dotmaster",
+      "summary": "Dotfiles manager intended for everyone.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/dotmaster",
+      "imageUrl": "",
+      "techstack": ["Shell"],
+      "details": [
+        "Provides a framework for managing and deploying dotfiles across machines.",
+        "Aims to make configuration management more approachable for users new to dotfiles."
+      ]
+    },
+    {
+      "name": "thermal_daemon",
+      "summary": "Fork of Intel's thermal daemon for IA platforms.",
+      "category": ["Linux"],
+      "url": "https://github.com/ashish-kus/thermal_daemon",
+      "imageUrl": "",
+      "techstack": ["C++"],
+      "details": [
+        "Manages thermal policies on Intel architectures to balance performance and temperature.",
+        "Fork used for experimentation or integration with the author's Linux setups."
       ]
     }
   ],
